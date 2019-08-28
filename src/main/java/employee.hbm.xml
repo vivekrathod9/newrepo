@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="ind.com.indexial.Testhibernate.Employee" table="employee_Info">
+
+		<id name="empId" type="int" column="Emp_Id">
+			 <generator class="native" /> 
+		</id>
+		<property name="empName" column="Emp_Name" type="string" />
+		<property name="empAge" column="Emp_Age" type="int" />
+		<property name="empAddress" column="Emp_Address" type="string" />
+
+	</class>
+</hibernate-mapping>
+
+
