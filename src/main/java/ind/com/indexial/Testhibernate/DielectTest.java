@@ -6,7 +6,7 @@ public class DielectTest {
 
     public static void main(String[] args)  throws InterruptedException{
     	Set.m1();
-    	System.out.println(">>>>>>>>>>");
+    	
 	    System.out.println("m999122");
 
     }
