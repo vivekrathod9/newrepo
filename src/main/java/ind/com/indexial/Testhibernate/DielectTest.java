@@ -6,12 +6,9 @@ public class DielectTest {
 
     public static void main(String[] args)  throws InterruptedException{
     	Set.m1();
-<<<<<<< HEAD
-    	System.out.println("m100");
+    	System.out.println(">>>>>>>>>>");
+	    System.out.println("m999122");
 
-=======
-	    System.out.println("m99");
->>>>>>> cdaa86b574e87d0d42a4f0cc46991cb3a3454ca1
     }
 /*    {
     		dostuff();
