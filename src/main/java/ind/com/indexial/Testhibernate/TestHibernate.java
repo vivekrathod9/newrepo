@@ -8,7 +8,7 @@ import org.hibernate.cfg.Configuration;
 public class TestHibernate {
 
 	public static void main(String[] args) {
-		System.out.println("Entering in main method");
+		
 		Employee e1 = new Employee(10, "Vivek", 25, "Pune");
 		Employee e2 = new Employee(20, "suraj", 23, "Pusad");
 		
