@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.indexial.springhbmxml.Student" table="stud">
+
+		<id name="stdId" type="int" column="id">
+			<generator class="foreign">
+				<param name="property">subject</param>
+			</generator>
+		</id>
+		<property name="stdName" column="first_name" type="string" />
+<one-to-one name="subject" class="com.indexial.springhbmxml.Subject" cascade="all" />
+	</class>
+
+	<class name="com.indexial.springhbmxml.Subject" table="sub">
+		<id name="subId" type="int" column="id">
+		</id>
+		<property name="subName" column="first_name" type="string" />
+	</class>
+
+
+</hibernate-mapping>
